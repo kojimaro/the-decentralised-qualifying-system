@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "./SafeMath.sol";
 
 contract Qualification {
     event Transfer(address indexed from, address indexed to, uint256 indexed credentialId);

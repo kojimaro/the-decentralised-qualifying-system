@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 import "./Qualification.sol";
 import "./QualificationMetadata.sol";
 import "./QualificationGrantable.sol";
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "./SafeMath.sol";
 
 contract Issue is Qualification, QualificationMetadata, QualificationGrantable {
 
